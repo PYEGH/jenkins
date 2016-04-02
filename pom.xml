@@ -19,9 +19,31 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-library</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.8.4</version>
+		</dependency>
 	</dependencies>
 
-	
+
 	<build>
 		<finalName>SimpleWEB</finalName>
 		<plugins>
@@ -32,7 +54,7 @@
 				<configuration>
 					<url>http://localhost:8089/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/SimpleWEB</path>
+					<path>/SimpleWEB_NEW</path>
 				</configuration>
 			</plugin>
 		</plugins>
